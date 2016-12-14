@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <declare-styleable name="TintedImageView">
+        <attr name="tint" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="ExtColor">
+        <attr name="label_color" format="color" />
+        <attr name="label_text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CarType">
+        <attr name="car_type" format="string" />
+        <attr name="car_icon" format="reference" />
+    </declare-styleable>
+
+</resources>

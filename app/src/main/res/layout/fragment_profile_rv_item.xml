@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@android:color/white"
+    tools:ignore="ContentDescription">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow android:background="@color/colorLightGray">
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/spinner_mark_auto"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfileMark"
+                    style="@style/ProfileCardViewTextView"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/spinner_model_auto"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfileModel"
+                    style="@style/ProfileCardViewTextView"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/price_from"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfilePriceFrom"
+                    style="@style/ProfileCardViewTextView"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/price_until"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfilePriceUntil"
+                    style="@style/ProfileCardViewTextView"/>
+
+            </TableRow>
+
+            <TableRow android:background="@color/colorLightGray">
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/manufactured_from"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfileManFrom"
+                    style="@style/ProfileCardViewTextView"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/manufactured_until"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfileManUntil"
+                    style="@style/ProfileCardViewTextView"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/mileage_from"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfileMileageFrom"
+                    style="@style/ProfileCardViewTextView"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/mileage_until"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfileMileageUntil"
+                    style="@style/ProfileCardViewTextView"/>
+
+            </TableRow>
+
+            <TableRow android:background="@color/colorLightGray">
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/spinner_fuel"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfileFuel"
+                    style="@style/ProfileCardViewTextView"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/transmission"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfileGear"
+                    style="@style/ProfileCardViewTextView"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/power_from"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfilePowerFrom"
+                    style="@style/ProfileCardViewTextView"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/power_until"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfilePowerUntil"
+                    style="@style/ProfileCardViewTextView"/>
+
+            </TableRow>
+
+            <TableRow android:background="@color/colorLightGray">
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/land"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfileLand"
+                    style="@style/ProfileCardViewTextView"
+                    android:layout_span="3"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/spinner_sort_type"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfileSort"
+                    style="@style/ProfileCardViewTextView"
+                    android:layout_span="3"/>
+
+            </TableRow>
+
+            <TableRow android:background="@color/colorLightGray">
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/color_auto"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfileExtColor"
+                    style="@style/ProfileCardViewTextView"
+                    android:layout_span="3"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/car_type"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfileCarType"
+                    style="@style/ProfileCardViewTextView"
+                    android:layout_span="3"/>
+
+            </TableRow>
+
+            <TableRow android:background="@color/colorLightGray">
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/spinner_owner_qty"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfileOwnerQty"
+                    style="@style/ProfileCardViewTextView"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/spinner_damaged_cars"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfileDamaged"
+                    style="@style/ProfileCardViewTextView"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/spinner_eco_class"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfileEcoClass"
+                    style="@style/ProfileCardViewTextView"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/spinner_eco_filter"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfileEcoFilter"
+                    style="@style/ProfileCardViewTextView"/>
+
+            </TableRow>
+
+            <TableRow android:background="@color/colorLightGray">
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/spinner_provider"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfileSeller"
+                    style="@style/ProfileCardViewTextView"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/spinner_ad_age"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfileAdAge"
+                    style="@style/ProfileCardViewTextView"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/spinner_interior_equip"/>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfileInterior"
+                    style="@style/ProfileCardViewTextView"/>
+
+            </TableRow>
+
+            <TableRow android:background="@color/colorLightGray">
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/ProfileCardViewHint"
+                    android:text="@string/other"/>
+
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/cardViewProfileOther"
+                    style="@style/ProfileCardViewTextView"
+                    android:layout_span="3"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/cardViewProfileTrash"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_trash"/>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

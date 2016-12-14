@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <auto.explorer.view.spinner.MarkModelView
+            android:id="@+id/markModelView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <auto.explorer.view.spinner.PriceFromSpinner
+                android:id="@+id/spinnerPriceFrom"
+                style="@style/ExplorerSpinnerStyle"
+                android:layout_weight="1"/>
+
+            <auto.explorer.view.spinner.PriceUntilSpinner
+                android:id="@+id/spinnerPriceUntil"
+                style="@style/ExplorerSpinnerStyle"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <auto.explorer.view.spinner.ManFromSpinner
+                android:id="@+id/spinnerManFrom"
+                style="@style/ExplorerSpinnerStyle"
+                android:layout_weight="1"/>
+
+            <auto.explorer.view.spinner.ManUntilSpinner
+                android:id="@+id/spinnerManUntil"
+                style="@style/ExplorerSpinnerStyle"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <auto.explorer.view.spinner.MileageFromSpinner
+                android:id="@+id/spinnerMileageFrom"
+                style="@style/ExplorerSpinnerStyle"
+                android:layout_weight="1"/>
+
+            <auto.explorer.view.spinner.MileageUntilSpinner
+                android:id="@+id/spinnerMileageUntil"
+                style="@style/ExplorerSpinnerStyle"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <auto.explorer.view.spinner.FuelSpinner
+                android:id="@+id/spinnerFuel"
+                style="@style/ExplorerSpinnerStyle"
+                android:layout_weight="1"/>
+
+            <auto.explorer.view.spinner.GearSpinner
+                android:id="@+id/spinnerTrans"
+                style="@style/ExplorerSpinnerStyle"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <auto.explorer.view.spinner.PowerFromSpinner
+                android:id="@+id/spinnerPowerFrom"
+                style="@style/ExplorerSpinnerStyle"
+                android:layout_weight="1"/>
+
+            <auto.explorer.view.spinner.PowerUntilSpinner
+                android:id="@+id/spinnerPowerUntil"
+                style="@style/ExplorerSpinnerStyle"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <auto.explorer.view.spinner.LandPlzRadiusView
+            android:id="@+id/landPlzRadiusView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <auto.explorer.view.SearchDetailsLayout
+            android:id="@+id/detailRootLayout"
+            style="@style/ExpandableLayout"
+            android:layout_height="wrap_content"/>
+
+        <auto.explorer.view.EquipmentView
+            android:id="@+id/carEquipment"
+            style="@style/ExpandableLayout"
+            android:layout_height="wrap_content"/>
+
+        <auto.explorer.view.spinner.SortTypeSpinner
+            android:id="@+id/spinnerSortType"
+            style="@style/ExplorerSpinnerStyle"
+            android:layout_marginEnd="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="8dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="80dp"/>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

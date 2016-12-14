@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Schwarz">Schwarz</string>
+    <string name="Grau">Grau</string>
+    <string name="Silber">Silber</string>
+    <string name="Weiß">Weiß</string>
+    <string name="Rot">Rot</string>
+    <string name="Blau">Blau</string>
+    <string name="Gelb">Gelb</string>
+    <string name="Grün">Grün</string>
+    <string name="Beige">Beige</string>
+    <string name="Gold">Gold</string>
+    <string name="Braun">Braun</string>
+    <string name="Orange">Orange</string>
+    <string name="Bronze">Bronze</string>
+    <string name="Violett">Violett</string>
+
+    <color name="Schwarz">#de000000</color>
+    <color name="Grau">#808080</color>
+    <color name="Silber">#C0C0C0</color>
+    <color name="Rot">#a3231c</color>
+    <color name="Blau">#1c20a3</color>
+    <color name="Gelb">#ffff00</color>
+    <color name="Grün">#4CAF50</color>
+    <color name="Beige">#dbaf6e</color>
+    <color name="Gold">#FFD700</color>
+    <color name="Braun">#964B00</color>
+    <color name="Orange">#FFA500</color>
+    <color name="Bronze">#CD7F32</color>
+    <color name="Violett">#8B00FF</color>
+
+    <style name="CheckboxSchwarz" parent="AppTheme">
+        <item name="colorControlActivated">@color/Schwarz</item>
+        <item name="buttonTint">@color/Schwarz</item>
+    </style>
+
+    <style name="CheckboxGrau" parent="AppTheme">
+        <item name="colorControlActivated">@color/Grau</item>
+        <item name="buttonTint">@color/Grau</item>
+    </style>
+
+    <style name="CheckboxSilber" parent="AppTheme">
+        <item name="colorControlActivated">@color/Silber</item>
+        <item name="buttonTint">@color/Silber</item>
+    </style>
+
+    <style name="CheckboxWeiß" parent="AppTheme">
+        <item name="colorControlActivated">#8e000000</item>
+        <item name="buttonTint">#8e000000</item>
+    </style>
+
+    <style name="CheckboxRot" parent="AppTheme">
+        <item name="colorControlActivated">@color/Rot</item>
+        <item name="buttonTint">@color/Rot</item>
+    </style>
+
+    <style name="CheckboxBlau" parent="AppTheme">
+        <item name="colorControlActivated">@color/Blau</item>
+        <item name="buttonTint">@color/Blau</item>
+    </style>
+
+    <style name="CheckboxGelb" parent="AppTheme">
+        <item name="colorControlActivated">@color/Gelb</item>
+        <item name="buttonTint">@color/Gelb</item>
+    </style>
+
+    <style name="CheckboxGrün" parent="AppTheme">
+        <item name="colorControlActivated">@color/Grün</item>
+        <item name="buttonTint">@color/Grün</item>
+    </style>
+
+    <style name="CheckboxBeige" parent="AppTheme">
+        <item name="colorControlActivated">@color/Beige</item>
+        <item name="buttonTint">@color/Beige</item>
+    </style>
+
+    <style name="CheckboxGold" parent="AppTheme">
+        <item name="colorControlActivated">@color/Gold</item>
+        <item name="buttonTint">@color/Gold</item>
+    </style>
+
+    <style name="CheckboxBraun" parent="AppTheme">
+        <item name="colorControlActivated">@color/Braun</item>
+        <item name="buttonTint">@color/Braun</item>
+    </style>
+
+    <style name="CheckboxOrange" parent="AppTheme">
+        <item name="colorControlActivated">@color/Orange</item>
+        <item name="buttonTint">@color/Orange</item>
+    </style>
+
+    <style name="CheckboxBronze" parent="AppTheme">
+        <item name="colorControlActivated">@color/Bronze</item>
+        <item name="buttonTint">@color/Bronze</item>
+    </style>
+
+    <style name="CheckboxViolett" parent="AppTheme">
+        <item name="colorControlActivated">@color/Violett</item>
+        <item name="buttonTint">@color/Violett</item>
+    </style>
+
+    <style name="CheckboxMetallic" parent="AppTheme">
+        <item name="colorControlActivated">#de000000</item>
+        <item name="buttonTint">#de000000</item>
+    </style>
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_view_side_margins"
+    app:cardBackgroundColor="@color/colorCarCardBackground"
+    tools:ignore="ContentDescription">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/cardViewPoster"
+            android:layout_width="@dimen/card_view_poster_width"
+            android:layout_height="@dimen/card_view_poster_height"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="@dimen/card_view_poster_margin_right"
+            android:layout_marginTop="@dimen/card_view_poster_margin_right"
+            android:scaleType="centerCrop"/>
+
+        <auto.explorer.base.ExplorerTextView
+            android:id="@+id/carouselCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="@dimen/card_view_counter_margin"
+            android:layout_marginTop="@dimen/card_view_counter_margin"
+            android:background="@drawable/rounded_background_counter"
+            android:gravity="center"
+            android:minEms="3"
+            android:padding="2dp"
+            android:text="@android:string/ok"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/card_photos_qty_text"/>
+
+        <auto.explorer.base.ExplorerTextView
+            android:id="@+id/cardViewTitle"
+            style="@style/CardViewTitle"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/cardViewPoster"
+            android:text="@android:string/ok"/>
+
+        <auto.explorer.base.ExplorerTextView
+            android:id="@+id/cardViewPrice"
+            style="@style/CardViewPrice"
+            android:layout_below="@+id/cardViewTitle"
+            android:layout_toEndOf="@+id/cardViewPoster"
+            android:text="@android:string/ok"/>
+
+        <LinearLayout
+            android:id="@+id/yearMilePowerFuelLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardViewPrice"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/cardViewPoster"
+            android:orientation="horizontal">
+
+            <auto.explorer.base.ExplorerTextView
+                android:id="@+id/cardViewYear"
+                style="@style/CardViewThirdLine"
+                android:text="@android:string/ok"/>
+
+            <include layout="@layout/card_view_vertical_divider"/>
+
+            <auto.explorer.base.ExplorerTextView
+                android:id="@+id/cardViewMile"
+                style="@style/CardViewThirdLine"
+                android:text="@android:string/ok"/>
+
+            <include layout="@layout/card_view_vertical_divider"/>
+
+            <auto.explorer.base.ExplorerTextView
+                android:id="@+id/cardViewPower"
+                style="@style/CardViewThirdLine"
+                android:text="@android:string/ok"/>
+
+            <include layout="@layout/card_view_vertical_divider"/>
+
+            <auto.explorer.base.ExplorerTextView
+                android:id="@+id/cardViewFuel"
+                style="@style/CardViewThirdLine"
+                android:text="@android:string/ok"/>
+
+        </LinearLayout>
+
+        <auto.explorer.base.ExplorerTextView
+            android:id="@+id/cardViewEquip"
+            style="@style/CardViewEquip"
+            android:layout_below="@+id/yearMilePowerFuelLayout"
+            android:layout_toEndOf="@+id/cardViewPoster"
+            android:text="@android:string/ok"/>
+
+        <View
+            android:id="@+id/cardViewVerticalDivider"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/cardViewEquip"
+            android:layout_marginBottom="2dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@+id/cardViewPoster"
+            android:background="@color/colorCardViewDivider"/>
+
+        <auto.explorer.base.ExplorerTextView
+            android:id="@+id/cardViewSeller"
+            style="@style/CardViewSellerAddress"
+            android:layout_below="@+id/cardViewVerticalDivider"
+            android:layout_toEndOf="@+id/cardViewPoster"
+            android:text="@android:string/ok"
+            android:textColor="@android:color/black"/>
+
+        <auto.explorer.base.ExplorerTextView
+            android:id="@+id/cardViewAddress"
+            style="@style/CardViewSellerAddress"
+            android:layout_below="@+id/cardViewSeller"
+            android:layout_toEndOf="@+id/cardViewPoster"
+            android:text="@android:string/ok"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:id="@+id/cardViewHeart"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:padding="8dp"
+            android:src="@drawable/ic_fav_activated_card"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

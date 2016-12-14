@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_add_search_profile"
+        android:icon="@drawable/ic_add_search_profile"
+        android:title="@string/add_search_profile"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_search_clear_params"
+        android:icon="@drawable/ic_clear_search_params"
+        android:title="@string/reset_search_params"
+        app:showAsAction="always"/>
+</menu>

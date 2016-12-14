@@ -1,0 +1,26 @@
+<resources>
+
+    <dimen name="spinner_height">40dp</dimen>
+    <dimen name="spinner_vertical_offset">0dp</dimen>
+
+    <dimen name="rounded_corner_radius">4dp</dimen>
+
+    <dimen name="card_view_bottom_margin">68dp</dimen>
+    <dimen name="card_view_poster_width">152dp</dimen>
+    <dimen name="card_view_poster_height">114dp</dimen>
+    <dimen name="card_view_poster_margin_right">0dp</dimen>
+    <dimen name="card_view_counter_margin">2dp</dimen>
+    <dimen name="card_view_vertical_divider_margins">4dp</dimen>
+    <dimen name="card_view_side_margins">1dp</dimen>
+
+    <dimen name="base_colored_button">56dp</dimen>
+
+    <dimen name="card_photos_qty_text">8sp</dimen>
+    <dimen name="card_photos_qty_text_pager">14sp</dimen>
+    <dimen name="nav_action_text_size">10sp</dimen>
+    <dimen name="nav_action_size">20dp</dimen>
+
+    <dimen name="car_card_bottom_title_text_size">10sp</dimen>
+    <dimen name="empty_state_view_image_size">256dp</dimen>
+
+</resources>

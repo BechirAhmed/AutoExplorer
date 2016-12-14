@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/expandableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <auto.explorer.base.ExplorerTextView
+        android:id="@+id/spinnerHint"
+        style="@style/ExpandableTitle"
+        android:text="@string/adv_search_subhead" />
+
+    <include
+        android:id="@+id/collapseExpand"
+        layout="@layout/collapse_expand_button" />
+
+    <LinearLayout
+        android:id="@+id/collapsedLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerHint"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <auto.explorer.view.ExtColorView
+            android:id="@+id/spinnerExtColor"
+            style="@style/ExplorerSpinnerStyle"
+            android:layout_height="wrap_content" />
+
+        <auto.explorer.view.CarTypesView
+            android:id="@+id/carTypesView"
+            style="@style/ExplorerSpinnerStyle"
+            android:layout_height="wrap_content" />
+
+        <auto.explorer.view.spinner.OwnerQtySpinner
+            android:id="@+id/spinnerOwnerQty"
+            style="@style/ExplorerSpinnerStyle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <auto.explorer.view.spinner.EcoClassSpinner
+                android:id="@+id/ecoClassSpinner"
+                style="@style/ExplorerSpinnerStyle"
+                android:layout_weight="1" />
+
+            <auto.explorer.view.spinner.EcoFilterSpinner
+                android:id="@+id/ecoFilterSpinner"
+                style="@style/ExplorerSpinnerStyle"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <auto.explorer.view.spinner.DamagedCarsSpinner
+            android:id="@+id/spinnerDamagedCars"
+            style="@style/ExplorerSpinnerStyle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <auto.explorer.view.spinner.ProviderSpinner
+                android:id="@+id/spinnerProvider"
+                style="@style/ExplorerSpinnerStyle"
+                android:layout_weight="1" />
+
+            <auto.explorer.view.spinner.AdAgeSpinner
+                android:id="@+id/spinnerAdAge"
+                style="@style/ExplorerSpinnerStyle"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/spinner_item_background"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <auto.explorer.view.check.ServiceBook
+                    android:id="@+id/serviceBookCheck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <auto.explorer.view.check.Inspection
+                    android:id="@+id/inspectionCheck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <auto.explorer.view.check.WithPhoto
+                    android:id="@+id/withPhotoCheck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <auto.explorer.view.check.Warranty
+                    android:id="@+id/warrantyCheck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

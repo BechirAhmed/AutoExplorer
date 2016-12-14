@@ -1,0 +1,68 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="auto.explorer.fragment.DetailFragment"
+    tools:ignore="ContentDescription">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorGray"/>
+
+        <auto.explorer.base.ExplorerTextView
+            android:id="@+id/pagerPhotoCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="4dp"
+            android:background="@drawable/rounded_background_counter"
+            android:gravity="center"
+            android:minEms="3"
+            android:padding="4dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/card_photos_qty_text_pager"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60">
+
+        <View
+            android:id="@+id/detailsGreenLine"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="2dp"
+            android:background="@color/colorGrayDark"/>
+
+        <auto.explorer.view.DetailsScrollView
+            android:id="@+id/detailsScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/detailsGreenLine"/>
+
+        <auto.explorer.view.RotatingImageView
+            android:id="@+id/detailsProgress"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_loading"
+            android:tint="@color/colorRed"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

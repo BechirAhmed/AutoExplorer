@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/expandableLayout"
+    style="@style/ExplorerSpinnerLayout"
+    android:orientation="vertical">
+
+    <auto.explorer.base.ExplorerTextView
+        android:id="@+id/spinnerHint"
+        style="@style/ExplorerSpinnerItemTitle"
+        android:text="@string/car_type" />
+
+    <auto.explorer.base.TintedImageView
+        android:id="@+id/collapseExpand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent"
+        android:checked="true"
+        android:paddingBottom="6dp"
+        android:paddingEnd="6dp"
+        android:paddingStart="6dp"
+        android:paddingTop="8dp"
+        android:src="@drawable/selector_expand_collapse"
+        android:tint="@color/colorSpinnerItemIcon" />
+
+    <LinearLayout
+        android:id="@+id/gridCarTypesCheckboxes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerHint"
+        android:orientation="vertical">
+
+        <auto.explorer.view.CarType
+            android:id="@+id/carTypeViewMini"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:car_icon="@drawable/ic_car_kleinwagen"
+            app:car_type="@string/car_type_kleinwagen" />
+
+        <auto.explorer.view.CarType
+            android:id="@+id/carTypeViewCabrio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:car_icon="@drawable/ic_car_cabrio"
+            app:car_type="@string/car_type_cabrio" />
+
+        <auto.explorer.view.CarType
+            android:id="@+id/carTypeViewCoupe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:car_icon="@drawable/ic_car_coupe"
+            app:car_type="@string/car_type_coupe" />
+
+        <auto.explorer.view.CarType
+            android:id="@+id/carTypeViewSuv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:car_icon="@drawable/ic_car_suv"
+            app:car_type="@string/car_type_suv" />
+
+        <auto.explorer.view.CarType
+            android:id="@+id/carTypeViewLimousine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:car_icon="@drawable/ic_car_limousine"
+            app:car_type="@string/car_type_limousine" />
+
+        <auto.explorer.view.CarType
+            android:id="@+id/carTypeViewCombi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:car_icon="@drawable/ic_car_kombi"
+            app:car_type="@string/car_type_kombi" />
+
+        <auto.explorer.view.CarType
+            android:id="@+id/carTypeViewTransporter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:car_icon="@drawable/ic_car_transporter"
+            app:car_type="@string/car_type_transporter" />
+
+        <auto.explorer.view.CarType
+            android:id="@+id/carTypeViewVan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:car_icon="@drawable/ic_car_van"
+            app:car_type="@string/car_type_van" />
+
+    </LinearLayout>
+
+</RelativeLayout>

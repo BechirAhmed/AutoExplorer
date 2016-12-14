@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <auto.explorer.base.ExplorerSpinner
+        android:id="@+id/spinnerLand"
+        style="@style/ExplorerSpinnerStyle"
+        android:layout_weight="1"/>
+
+    <auto.explorer.base.ExplorerSpinner
+        android:id="@+id/spinnerPLZ"
+        style="@style/ExplorerSpinnerStyle"
+        android:layout_weight="1"/>
+
+    <auto.explorer.base.ExplorerSpinner
+        android:id="@+id/spinnerRadius"
+        style="@style/ExplorerSpinnerStyle"
+        android:layout_weight="1"/>
+</LinearLayout>
+
+        

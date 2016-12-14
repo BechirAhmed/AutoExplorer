@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoExplorer</string>
+    <string name="spinner_sort_type">Sortieren nach</string>
+    <string name="spinner_mark_auto">Marke</string>
+    <string name="spinner_model_auto">Modell</string>
+    <string name="spinner_fuel">Kraftstoffart</string>
+    <string name="spinner_owner_qty">Fahrzeughalter</string>
+    <string name="spinner_eco_class">Schadstoffklasse</string>
+    <string name="spinner_eco_filter">Feinstaubplakette</string>
+    <string name="spinner_damaged_cars">Beschädigte Fahrzeuge</string>
+    <string name="spinner_provider">Anbieter</string>
+    <string name="spinner_ad_age">Angebot online seit</string>
+    <string name="spinner_interior_equip">Innenausstattung</string>
+    <string name="adv_search_subhead">Weitere Suchoptionen</string>
+    <string name="manufactured_from">Erstzulassung ab</string>
+    <string name="manufactured_until">Erstzulassung bis</string>
+    <string name="mileage_from">Kilometerstand ab</string>
+    <string name="mileage_until">Kilometerstand bis</string>
+    <string name="transmission">Getrieße</string>
+    <string name="color_auto">Außenfarbe</string>
+    <string name="color_metallic">Metallic</string>
+    <string name="price_from">Preis ab €</string>
+    <string name="price_until">Preis bis €</string>
+    <string name="power_from">Leistung ab PS</string>
+    <string name="power_until">Leistung bis PS</string>
+    <string name="land">Land</string>
+    <string name="plz">PLZ</string>
+    <string name="radius">Umkreissuche</string>
+    <string name="search">Suchen</string>
+    <string name="search_result_count">%1$s von %2$s Ergebnisse gefunden</string>
+    <string name="next_page">Folgeseite</string>
+    <string name="reset_search_params">Suchkriterien zurücksetzen</string>
+    <string name="saved_search_profiles">Gespeicherte Suchprofile</string>
+    <string name="menu_fav_delete_all">Löschen Sie alle Favoriten</string>
+    <string name="menu_profiles_delete_all">Löschen Sie alle Suchprofile</string>
+    <string name="menu_details_call">Anruf</string>
+    <string name="menu_cards_change_view">Ändern Sie Ihre Ansicht</string>
+    <string name="favorites">Favoritenanzeigen</string>
+    <string name="settings">Einstellungen</string>
+    <string name="info">Info</string>
+    <string name="reset_search_params_msg">Alle Suchkriterien werden zurückgesetzt! Sind sie sicher?</string>
+    <string name="reset">Zurücksetzen</string>
+    <string name="add_search_profile">Suchprofil speichern</string>
+    <string name="car_type">Fahrzeugtyp</string>
+    <string name="equipment">Ausstattungsmerkmale</string>
+    <string name="car_type_kleinwagen">Kleinwagen</string>
+    <string name="car_type_cabrio">Cabrio</string>
+    <string name="car_type_coupe">Coupé</string>
+    <string name="car_type_suv">SUV/Geländewagen</string>
+    <string name="car_type_limousine">Limousine</string>
+    <string name="car_type_kombi">Kombi</string>
+    <string name="car_type_transporter">Transporter</string>
+    <string name="car_type_van">Van/Kleinbus</string>
+    <string name="check_service_book">Scheckheftgepflegt</string>
+    <string name="check_inspection">HU/AU neu</string>
+    <string name="check_with_photo">Inserate mit Bildern</string>
+    <string name="check_warranty">Garantie</string>
+    <string name="check_all_wheel_drive">Allradantrieb</string>
+    <string name="check_park_assistant">Einparkhilfe</string>
+    <string name="check_head_up_display">Head-Up Display</string>
+    <string name="check_conditioner">Klimatisierung</string>
+    <string name="check_nav_system">Navigationssystem</string>
+    <string name="check_sun_roof">Schiebedach</string>
+    <string name="check_seat_heating">Sitzheizung</string>
+    <string name="check_tracking_assist">Spurhalteassistent</string>
+    <string name="check_heating">Standheizung</string>
+    <string name="check_start_stop_auto">Start/Stopp-Automatik</string>
+    <string name="other">Sonstig</string>
+
+    <!--Dialogs-->
+    <string name="dialog_negative_btn">Stornieren</string>
+    <string name="del_fav_dialog_title">Von Favoriten entfernen</string>
+    <string name="del_fav_dialog_msg">Sind sie sicher?</string>
+    <string name="del_fav_dialog_positive">Entfernen</string>
+
+    <string name="del_all_fav_dialog_title">Löschen Sie alle Favoriten</string>
+    <string name="del_all_fav_dialog_msg">Sind sie sicher?</string>
+    <string name="del_all_fav_dialog_positive">Entfernen</string>
+
+    <string name="del_all_profiles_dialog_title">Löschen Sie alle Suchprofile</string>
+    <string name="del_all_profiles_dialog_msg">Sind sie sicher?</string>
+    <string name="del_all_profiles_dialog_positive">Entfernen</string>
+
+    <string name="del_profiles_dialog_title">Suchprofil löschen</string>
+    <string name="del_profiles_dialog_msg">Sind sie sicher?</string>
+    <string name="del_profiles_dialog_positive">Entfernen</string>
+
+    <!--Details page-->
+    <string name="details_hint_mileage">Kilometerstand</string>
+    <string name="details_hint_manufactured">Erstzulassung</string>
+    <string name="details_hint_fuel_type">Kraftstoffart</string>
+    <string name="details_hint_power">Leistung</string>
+    <string name="details_hint_consumption">Verbrauch</string>
+    <string name="details_hint_transmission">Getriebe</string>
+    <string name="details_hint_owner_qty">Fahrzeughalter</string>
+    <string name="details_hint_ext_color">Außenfarbe</string>
+    <string name="details_hint_seller">Anbieter</string>
+    <string name="details_hint_equip">Fahrzeugausstattung</string>
+    <string name="details_hint_description">Beschreibung</string>
+
+    <!--SnackBar-->
+    <string name="snack_search_profile_saved">Profil gespeichert</string>
+    <string name="snack_search_profile_deleted">Profil gelöscht</string>
+    <string name="app_slogan1">AutoExplorer</string>
+    <string name="app_slogan2">Ihre Kfz-Suchmaschine</string>
+    <string name="action_share_title">Aktie Link zu Auto-Anzeige</string>
+    <string name="empty_state_no_favorites">Sie haben keine Favoriten</string>
+    <string name="empty_state_no_profiles">Sie haben keine gespeicherten Suchprofile</string>
+
+</resources>

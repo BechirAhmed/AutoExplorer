@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/expandableLayout"
+    style="@style/ExplorerSpinnerLayout"
+    android:orientation="vertical">
+
+    <auto.explorer.base.ExplorerTextView
+        android:id="@+id/spinnerHint"
+        style="@style/ExplorerSpinnerItemTitle"
+        android:text="@string/color_auto" />
+
+    <auto.explorer.base.TintedImageView
+        android:id="@+id/collapseExpand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent"
+        android:checked="true"
+        android:paddingBottom="6dp"
+        android:paddingEnd="6dp"
+        android:paddingStart="6dp"
+        android:paddingTop="8dp"
+        android:src="@drawable/selector_expand_collapse"
+        android:tint="@color/colorSpinnerItemIcon" />
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/gridColoredCheckboxes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerHint"
+        app:columnCount="3"
+        app:rowCount="5">
+
+        <auto.explorer.view.ExtColor
+            android:id="@+id/spinnerExtColorBlack"
+            style="@style/ExtColorItem"
+            android:tag="@string/Schwarz"
+            android:theme="@style/CheckboxSchwarz"
+            app:label_text="@string/Schwarz" />
+
+        <auto.explorer.view.ExtColor
+            android:id="@+id/spinnerExtColorGray"
+            style="@style/ExtColorItem"
+            android:tag="@string/Grau"
+            android:theme="@style/CheckboxGrau"
+            app:label_text="@string/Grau" />
+
+        <auto.explorer.view.ExtColor
+            android:id="@+id/spinnerExtColorSilver"
+            style="@style/ExtColorItem"
+            android:tag="@string/Silber"
+            android:theme="@style/CheckboxSilber"
+            app:label_text="@string/Silber" />
+
+        <auto.explorer.view.ExtColor
+            android:id="@+id/spinnerExtColorWhite"
+            style="@style/ExtColorItem"
+            android:tag="@string/Weiß"
+            android:theme="@style/CheckboxWeiß"
+            app:label_text="@string/Weiß" />
+
+        <auto.explorer.view.ExtColor
+            android:id="@+id/spinnerExtColorRed"
+            style="@style/ExtColorItem"
+            android:tag="@string/Rot"
+            android:theme="@style/CheckboxRot"
+            app:label_text="@string/Rot" />
+
+        <auto.explorer.view.ExtColor
+            android:id="@+id/spinnerExtColorBlue"
+            style="@style/ExtColorItem"
+            android:tag="@string/Blau"
+            android:theme="@style/CheckboxBlau"
+            app:label_text="@string/Blau" />
+
+        <auto.explorer.view.ExtColor
+            android:id="@+id/spinnerExtColorYellow"
+            style="@style/ExtColorItem"
+            android:tag="@string/Gelb"
+            android:theme="@style/CheckboxGelb"
+            app:label_text="@string/Gelb" />
+
+        <auto.explorer.view.ExtColor
+            android:id="@+id/spinnerExtColorGreen"
+            style="@style/ExtColorItem"
+            android:tag="@string/Grün"
+            android:theme="@style/CheckboxGrün"
+            app:label_text="@string/Grün" />
+
+        <auto.explorer.view.ExtColor
+            android:id="@+id/spinnerExtColorBeige"
+            style="@style/ExtColorItem"
+            android:tag="@string/Beige"
+            android:theme="@style/CheckboxBeige"
+            app:label_text="@string/Beige" />
+
+        <auto.explorer.view.ExtColor
+            android:id="@+id/spinnerExtColorGold"
+            style="@style/ExtColorItem"
+            android:tag="@string/Gold"
+            android:theme="@style/CheckboxGold"
+            app:label_text="@string/Gold" />
+
+        <auto.explorer.view.ExtColor
+            android:id="@+id/spinnerExtColorBrown"
+            style="@style/ExtColorItem"
+            android:tag="@string/Braun"
+            android:theme="@style/CheckboxBraun"
+            app:label_text="@string/Braun" />
+
+        <auto.explorer.view.ExtColor
+            android:id="@+id/spinnerExtColorOrqange"
+            style="@style/ExtColorItem"
+            android:tag="@string/Orange"
+            android:theme="@style/CheckboxOrange"
+            app:label_text="@string/Orange" />
+
+        <auto.explorer.view.ExtColor
+            android:id="@+id/spinnerExtColorBronze"
+            style="@style/ExtColorItem"
+            android:tag="@string/Bronze"
+            android:theme="@style/CheckboxBronze"
+            app:label_text="@string/Bronze" />
+
+        <auto.explorer.view.ExtColor
+            android:id="@+id/spinnerExtColorViolette"
+            style="@style/ExtColorItem"
+            android:tag="@string/Violett"
+            android:theme="@style/CheckboxViolett"
+            app:label_text="@string/Violett" />
+
+        <auto.explorer.view.ExtColorMetallic
+            android:id="@+id/spinnerExtColorMetallic"
+            style="@style/ExtColorItem"
+            android:theme="@style/CheckboxMetallic" />
+
+    </android.support.v7.widget.GridLayout>
+
+</RelativeLayout>

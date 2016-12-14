@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/expandableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <auto.explorer.base.ExplorerTextView
+        android:id="@+id/spinnerHint"
+        style="@style/ExpandableTitle"
+        android:text="@string/equipment" />
+
+    <include
+        android:id="@+id/collapseExpand"
+        layout="@layout/collapse_expand_button" />
+
+    <LinearLayout
+        android:id="@+id/equipLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerHint"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/spinner_item_background"
+            android:orientation="vertical">
+
+            <auto.explorer.view.check.AllWheelDrive
+                android:id="@+id/allWheelDrive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <auto.explorer.view.check.ParkAssistant
+                android:id="@+id/parkAssistant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <auto.explorer.view.check.HeadUpDisplay
+                android:id="@+id/headUpDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <auto.explorer.view.spinner.InteriorEquip
+            android:id="@+id/spinnerInteriorEquip"
+            style="@style/ExplorerSpinnerStyle"
+            android:layout_marginTop="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/spinner_item_background"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <auto.explorer.view.check.Conditioner
+                    android:id="@+id/conditioner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <auto.explorer.view.check.NavSystem
+                    android:id="@+id/navSystem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <auto.explorer.view.check.SunRoof
+                    android:id="@+id/sunRoof"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <auto.explorer.view.check.SeatHeating
+                    android:id="@+id/seatHeating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <auto.explorer.view.check.TrackingAssist
+                    android:id="@+id/trackingAssist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <auto.explorer.view.check.Heating
+                    android:id="@+id/heating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <auto.explorer.view.check.StartStopAuto
+                    android:id="@+id/startStopAuto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

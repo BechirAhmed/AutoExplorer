@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="colorGray">#d8d8d8</color>
+    <color name="colorLightGray">#f5f5f5</color>
+    <color name="colorGrayDark">#818181</color>
+    <color name="colorBoldText">#212121</color>
+    <color name="colorRed">#f44336</color>
+    <color name="colorBeigeLight">#d9d4ce</color>
+
+    <color name="colorSpinnerBackground">@android:color/white</color>
+    <color name="colorAppBackground">@color/colorBeigeLight</color>
+    <color name="colorSpinnerItemIcon">@color/colorAccent</color>
+    <color name="colorSpinnerItemDataText">@color/colorBoldText</color>
+    <color name="colorNavBackground">@android:color/white</color>
+    <color name="colorNavHeaderBackground">@color/colorPrimary</color>
+    <color name="colorNavHeaderEmail">@android:color/white</color>
+    <color name="colorNavItemChecked">@color/colorRed</color>
+    <color name="colorNavItemNormal">@color/colorPrimary</color>
+    <color name="colorNavItemTextNormal">@android:color/black</color>
+    <color name="colorCover">#50ffffff</color>
+    <color name="colorDetailSearchSubtitle">@color/colorPrimary</color>
+    <color name="colorCardViewTitle">@color/colorAccent</color>
+    <color name="colorCardViewPrice">@color/colorPrimary</color>
+    <color name="colorCardViewDivider">@color/colorPrimaryDark</color>
+    <color name="colorCardViewBottomBlock">@android:color/white</color>
+    <color name="colorBigButton">@color/colorRed</color>
+    <color name="colorNavMenuAction">@color/colorRed</color>
+    <color name="colorCarCardBackground">@android:color/white</color>
+</resources>

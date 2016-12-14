@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="ContentDescription">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <auto.explorer.base.ExplorerTextView
+            android:id="@+id/detailsTitle"
+            style="@style/DetailsTitle"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" />
+
+        <auto.explorer.base.ExplorerTextView
+            android:id="@+id/detailsPrice"
+            style="@style/DetailsPrice"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp">
+
+            <TableRow>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/DetailsHint"
+                    android:text="@string/details_hint_mileage" />
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/detailsMile"
+                    style="@style/DetailsField" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/DetailsHint"
+                    android:text="@string/details_hint_manufactured" />
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/detailsYear"
+                    style="@style/DetailsField" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/DetailsHint"
+                    android:text="@string/details_hint_fuel_type" />
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/detailsFuel"
+                    style="@style/DetailsField" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/DetailsHint"
+                    android:text="@string/details_hint_power" />
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/detailsPower"
+                    style="@style/DetailsField" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/DetailsHint"
+                    android:text="@string/details_hint_consumption" />
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/detailsConsumption"
+                    style="@style/DetailsField"
+                    android:lines="@null"
+                    android:maxLines="3" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/DetailsHint"
+                    android:text="@string/details_hint_transmission" />
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/detailsTransmission"
+                    style="@style/DetailsField" />
+            </TableRow>
+
+            <TableRow>
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/DetailsHint"
+                    android:text="@string/details_hint_owner_qty" />
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/detailsOwnerQty"
+                    style="@style/DetailsField" />
+            </TableRow>
+
+            <TableRow android:paddingBottom="8dp">
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/DetailsHint"
+                    android:text="@string/details_hint_ext_color" />
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/detailsExtColor"
+                    style="@style/DetailsField" />
+
+            </TableRow>
+
+            <TableRow
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <auto.explorer.base.ExplorerTextView
+                        style="@style/DetailsHint"
+                        android:layout_width="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/details_hint_seller" />
+
+                    <ImageView
+                        android:id="@+id/detailsMarker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:padding="2dp"
+                        android:src="@drawable/ic_place" />
+                </LinearLayout>
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/detailsSeller"
+                    style="@style/DetailsField" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/detailsEquipRow"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp">
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/DetailsHint"
+                    android:text="@string/details_hint_equip" />
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/detailsEquip"
+                    style="@style/DetailsField"
+                    android:layout_weight="1" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/detailsDescriptionRow"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp">
+
+                <auto.explorer.base.ExplorerTextView
+                    style="@style/DetailsHint"
+                    android:text="@string/details_hint_description" />
+
+                <auto.explorer.base.ExplorerTextView
+                    android:id="@+id/detailsDescription"
+                    style="@style/DetailsField"
+                    android:layout_weight="1" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</merge>

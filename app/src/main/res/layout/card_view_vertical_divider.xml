@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="0.5dp"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="@dimen/card_view_vertical_divider_margins"
+    android:layout_marginStart="@dimen/card_view_vertical_divider_margins"
+    android:background="@color/colorCardViewDivider"
+    tools:showIn="@layout/fragment_search_rv_item" />
